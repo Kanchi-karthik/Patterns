@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Math Patterns - Simple Interactive</title>
+  <link rel="stylesheet" href="patterns.css" />
+</head>
+<body>
+  <h1>Math Patterns</h1>
+  <p>Select a pattern and click "Show Pattern".</p>
+
+  <select id="patternSelect" aria-label="patterns">
+    <option value="arithmetic">Arithmetic Sequence</option>
+    <option value="geometric">Geometric Sequence</option>
+    <option value="fibonacci">Fibonacci Sequence</option>
+    <option value="square">Square Numbers</option>
+    <option value="cube">Cube Numbers</option>
+    <option value="triangular">Triangular Numbers</option>
+    <option value="factorial">Factorial Pattern</option>
+  </select>
+  <br />
+
+  <button onclick="showPattern()">Show Pattern</button>
+
+  <script src="patterns.js"></script>
+</body>
+</html>
